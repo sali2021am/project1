@@ -1,0 +1,12 @@
+
+<table class="table">
+    <tr>
+        <th scope="col">ID</th><th scope="col">Name</th><th scope="col">Module</th><th scope="col">Note</th>
+    </tr>
+    <tr *ngFor="let p of notes">
+    <td>{{p.id}}</td>
+    <td>{{p.name}}</td>
+    <td>{{p.module}}</td>
+    <td>{{p.note}}</td>
+</tr>
+</table>

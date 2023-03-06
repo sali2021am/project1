@@ -1,0 +1,12 @@
+th {
+    border: 2px solid rgb(200, 200, 200);
+    padding: 10px;
+}
+
+td {
+    border: 2px solid rgb(200, 200, 200);
+}
+th[scope='col'] {
+    background-color: #696969;
+    color: #fff;
+}
